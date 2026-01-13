@@ -1,10 +1,8 @@
-import { useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { ArrowLeft } from 'lucide-react';
 import { getArticleById, getStageLabel } from '@/services/knowledgeService';
-import type { KnowledgeArticle } from '@/types';
 
 export const KnowledgeDetail = () => {
   const { id } = useParams<{ id: string }>();

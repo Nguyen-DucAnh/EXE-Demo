@@ -195,9 +195,17 @@ app.get('/', (req, res) => {
   });
 });
 
-app.listen(PORT, () => {
-  console.log(`Server is running on http://localhost:${PORT}`);
-  console.log(`API endpoints available at http://localhost:${PORT}/api`);
-  console.log(`Frontend should be running at http://localhost:3000`);
-});
+// Only start server if not in Vercel (serverless)
+if (process.env.VERCEL !== '1') {
+  const PORT = process.env.PORT || 5000;
+  app.listen(PORT, () => {
+    console.log(`Server is running on http://localhost:${PORT}`);
+    console.log(`API endpoints available at http://localhost:${PORT}/api`);
+    console.log(`Frontend should be running at http://localhost:3000`);
+  });
+}
+
+// Export for Vercel
+export default app;
+
 

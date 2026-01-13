@@ -23,7 +23,7 @@ const stages: { value: LifeStage | 'all'; label: string }[] = [
 export const Knowledge = () => {
   const [searchParams, setSearchParams] = useSearchParams();
   const dispatch = useAppDispatch();
-  const { articles, filteredArticles, loading, selectedStage, searchQuery } = useAppSelector(
+  const { filteredArticles, loading, selectedStage } = useAppSelector(
     (state) => state.knowledge
   );
   const [localSearchQuery, setLocalSearchQuery] = useState('');

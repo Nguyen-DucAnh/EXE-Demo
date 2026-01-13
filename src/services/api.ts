@@ -1,5 +1,5 @@
 import axios from 'axios';
-import type { KnowledgeArticle, AIQuestion } from '@/types';
+import type { KnowledgeArticle } from '@/types';
 
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || '/api';
 

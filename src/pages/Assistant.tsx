@@ -4,11 +4,11 @@ import { askQuestion, setCurrentQuestion, clearCurrentQuestion } from '@/store/s
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Textarea } from '@/components/ui/textarea';
-import { MessageCircle, Send, Loader2, Trash2 } from 'lucide-react';
+import { MessageCircle, Send, Loader2 } from 'lucide-react';
 
 export const Assistant = () => {
   const dispatch = useAppDispatch();
-  const { questions, currentQuestion, loading, error } = useAppSelector((state) => state.ai);
+  const { questions, loading, error } = useAppSelector((state) => state.ai);
   const [inputValue, setInputValue] = useState('');
   const messagesEndRef = useRef<HTMLDivElement>(null);
 

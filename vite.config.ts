@@ -19,5 +19,10 @@ export default defineConfig({
       },
     },
   },
+  // Build configuration for Vercel
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets',
+  },
 })
 
