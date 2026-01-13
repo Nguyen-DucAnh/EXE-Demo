@@ -1,0 +1,122 @@
+[
+  {
+    "id": "prep-001",
+    "title": "Chuẩn bị tài chính cho thai kỳ",
+    "stage": "preparing",
+    "content": "Việc chuẩn bị tài chính là bước quan trọng đầu tiên. Bạn nên lập ngân sách cho các chi phí y tế, khám thai định kỳ, siêu âm, xét nghiệm, và chuẩn bị cho việc sinh con. Ngoài ra, hãy dự trù chi phí cho quần áo bầu, thực phẩm bổ sung dinh dưỡng, và các vật dụng cần thiết cho em bé sau khi chào đời.",
+    "tags": ["tài chính", "chuẩn bị", "kế hoạch"]
+  },
+  {
+    "id": "prep-002",
+    "title": "Tìm hiểu về quá trình mang thai",
+    "stage": "preparing",
+    "content": "Hãy dành thời gian tìm hiểu về các giai đoạn của thai kỳ, những thay đổi về thể chất và tinh thần mà vợ bạn sẽ trải qua. Đọc sách, tham gia các lớp học tiền sản, và trao đổi với các ông bố khác để có sự chuẩn bị tốt nhất.",
+    "tags": ["học hỏi", "thông tin", "chuẩn bị"]
+  },
+  {
+    "id": "prep-003",
+    "title": "Chuẩn bị tinh thần và hỗ trợ tâm lý",
+    "stage": "preparing",
+    "content": "Mang thai là hành trình đầy thử thách. Vợ bạn sẽ trải qua nhiều thay đổi về cảm xúc. Hãy kiên nhẫn, lắng nghe, và luôn ở bên cạnh để hỗ trợ. Động viên vợ khi cô ấy lo lắng, và chia sẻ niềm vui khi có tin vui.",
+    "tags": ["tâm lý", "hỗ trợ", "tinh thần"]
+  },
+  {
+    "id": "tri1-001",
+    "title": "Chăm sóc vợ trong tam cá nguyệt đầu tiên",
+    "stage": "trimester1",
+    "content": "Tam cá nguyệt đầu tiên (tuần 1-12) là giai đoạn nhạy cảm nhất. Vợ bạn có thể gặp ốm nghén, mệt mỏi, và thay đổi tâm trạng. Hãy giúp cô ấy nghỉ ngơi đầy đủ, chuẩn bị những bữa ăn nhẹ nhàng, dễ tiêu, và tránh các mùi nồng có thể gây khó chịu. Luôn đồng hành trong các buổi khám thai đầu tiên.",
+    "tags": ["tam cá nguyệt 1", "ốm nghén", "chăm sóc"]
+  },
+  {
+    "id": "tri1-002",
+    "title": "Hiểu về ốm nghén và cách hỗ trợ",
+    "stage": "trimester1",
+    "content": "Ốm nghén là hiện tượng phổ biến trong 3 tháng đầu. Vợ bạn có thể buồn nôn vào buổi sáng hoặc cả ngày. Hãy chuẩn bị gừng, bánh quy giòn, hoặc trà thảo mộc. Tránh nấu các món có mùi nồng. Nếu ốm nghén nghiêm trọng, hãy đưa vợ đi khám bác sĩ.",
+    "tags": ["ốm nghén", "buồn nôn", "hỗ trợ"]
+  },
+  {
+    "id": "tri2-001",
+    "title": "Chăm sóc vợ trong tam cá nguyệt thứ hai",
+    "stage": "trimester2",
+    "content": "Tam cá nguyệt thứ hai (tuần 13-27) thường là giai đoạn dễ chịu nhất. Vợ bạn sẽ có nhiều năng lượng hơn và bắt đầu cảm nhận em bé đạp. Hãy cùng cô ấy tham gia các hoạt động nhẹ nhàng như đi bộ, yoga cho bà bầu. Tiếp tục hỗ trợ trong việc ăn uống lành mạnh và nghỉ ngơi đầy đủ.",
+    "tags": ["tam cá nguyệt 2", "năng lượng", "hoạt động"]
+  },
+  {
+    "id": "tri2-002",
+    "title": "Chuẩn bị phòng cho em bé",
+    "stage": "trimester2",
+    "content": "Đây là thời điểm tốt để bắt đầu chuẩn bị phòng cho em bé. Hãy cùng vợ bạn lên kế hoạch, chọn màu sắc, và mua sắm các vật dụng cần thiết. Làm việc này cùng nhau sẽ tạo niềm vui và sự gắn kết.",
+    "tags": ["chuẩn bị", "phòng em bé", "mua sắm"]
+  },
+  {
+    "id": "tri3-001",
+    "title": "Chăm sóc vợ trong tam cá nguyệt thứ ba",
+    "stage": "trimester3",
+    "content": "Tam cá nguyệt thứ ba (tuần 28-40) là giai đoạn cuối cùng. Vợ bạn sẽ cảm thấy nặng nề, khó ngủ, và có thể lo lắng về việc sinh nở. Hãy giúp cô ấy massage chân, chuẩn bị gối hỗ trợ khi ngủ, và luôn sẵn sàng đưa đi bệnh viện khi có dấu hiệu chuyển dạ.",
+    "tags": ["tam cá nguyệt 3", "sinh nở", "chuyển dạ"]
+  },
+  {
+    "id": "tri3-002",
+    "title": "Chuẩn bị túi đồ đi sinh",
+    "stage": "trimester3",
+    "content": "Hãy chuẩn bị túi đồ đi sinh từ tuần 32-34. Bao gồm: quần áo cho mẹ và bé, tã, khăn, đồ vệ sinh cá nhân, giấy tờ tùy thân, bảo hiểm y tế, và các vật dụng cần thiết khác. Chuẩn bị sẵn sẽ giúp bạn bình tĩnh hơn khi thời điểm đến.",
+    "tags": ["chuẩn bị", "túi đồ", "sinh nở"]
+  },
+  {
+    "id": "postpartum-001",
+    "title": "Chăm sóc vợ sau sinh - Tuần đầu tiên",
+    "stage": "postpartum",
+    "content": "Tuần đầu tiên sau sinh là giai đoạn quan trọng nhất. Vợ bạn cần nghỉ ngơi nhiều để phục hồi. Hãy đảm nhận việc nhà, nấu ăn, và chăm sóc em bé để cô ấy có thời gian nghỉ. Quan sát các dấu hiệu trầm cảm sau sinh và hỗ trợ tâm lý kịp thời.",
+    "tags": ["sau sinh", "phục hồi", "nghỉ ngơi"]
+  },
+  {
+    "id": "postpartum-002",
+    "title": "Hỗ trợ vợ cho con bú",
+    "stage": "postpartum",
+    "content": "Cho con bú có thể là thử thách trong những ngày đầu. Hãy hỗ trợ vợ bằng cách mang nước, đồ ăn nhẹ khi cô ấy cho con bú, giúp tìm tư thế thoải mái, và động viên khi gặp khó khăn. Nếu có vấn đề, hãy tìm sự hỗ trợ từ chuyên gia tư vấn sữa mẹ.",
+    "tags": ["cho con bú", "sữa mẹ", "hỗ trợ"]
+  },
+  {
+    "id": "postpartum-003",
+    "title": "Hiểu về trầm cảm sau sinh",
+    "stage": "postpartum",
+    "content": "Trầm cảm sau sinh là tình trạng phổ biến và nghiêm trọng. Các dấu hiệu bao gồm: buồn bã kéo dài, mất hứng thú, mệt mỏi cực độ, lo lắng quá mức. Hãy quan sát và hỗ trợ vợ. Nếu cần, đưa cô ấy đi khám bác sĩ tâm lý. Đừng coi nhẹ vấn đề này.",
+    "tags": ["trầm cảm", "sức khỏe tâm thần", "hỗ trợ"]
+  },
+  {
+    "id": "newborn-001",
+    "title": "Cách bế và giữ em bé an toàn",
+    "stage": "newborn",
+    "content": "Luôn đỡ đầu và cổ của em bé khi bế vì cổ của trẻ sơ sinh còn rất yếu. Một tay đỡ đầu và cổ, tay kia đỡ mông. Giữ em bé gần ngực bạn để tạo cảm giác an toàn. Rửa tay trước khi bế em bé.",
+    "tags": ["bế em bé", "an toàn", "kỹ năng"]
+  },
+  {
+    "id": "newborn-002",
+    "title": "Thay tã cho em bé",
+    "stage": "newborn",
+    "content": "Thay tã thường xuyên để tránh hăm tã. Chuẩn bị sẵn: tã sạch, khăn ướt hoặc nước ấm, kem chống hăm. Lau sạch từ trước ra sau (đặc biệt với bé gái). Đảm bảo da khô ráo trước khi mặc tã mới.",
+    "tags": ["thay tã", "vệ sinh", "chăm sóc"]
+  },
+  {
+    "id": "newborn-003",
+    "title": "Cho em bé bú bình",
+    "stage": "newborn",
+    "content": "Nếu cho em bé bú bình, hãy đảm bảo bình sạch sẽ và sữa ở nhiệt độ phù hợp (kiểm tra bằng cách nhỏ vài giọt lên cổ tay). Giữ bình ở góc 45 độ, để không khí không vào. Cho em bé ợ hơi sau khi bú.",
+    "tags": ["bú bình", "sữa công thức", "cho ăn"]
+  },
+  {
+    "id": "newborn-004",
+    "title": "Tắm cho em bé",
+    "stage": "newborn",
+    "content": "Tắm cho em bé 2-3 lần/tuần là đủ trong tháng đầu. Chuẩn bị nước ấm (37-38°C), khăn mềm, sữa tắm dành cho trẻ sơ sinh. Giữ em bé an toàn, lau khô ngay sau khi tắm, và mặc quần áo ấm. Không bao giờ để em bé một mình trong nước.",
+    "tags": ["tắm", "vệ sinh", "an toàn"]
+  },
+  {
+    "id": "newborn-005",
+    "title": "Giúp em bé ngủ ngon",
+    "stage": "newborn",
+    "content": "Trẻ sơ sinh ngủ nhiều nhưng không liên tục. Tạo môi trường ngủ an toàn: đặt em bé nằm ngửa, không có gối hoặc chăn mềm, nhiệt độ phòng phù hợp. Thiết lập thói quen trước khi ngủ: tắm, massage nhẹ, hát ru. Chia sẻ việc thức đêm với vợ.",
+    "tags": ["giấc ngủ", "an toàn", "thói quen"]
+  }
+]
+
