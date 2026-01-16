@@ -1,4 +1,4 @@
-# ✅ Checklist Hoàn Thành Dự Án BỐCÓMẶT
+# ✅ Checklist Hoàn Thành Dự Án HeyPaaaa
 
 ## 📦 Cấu hình & Dependencies
 - [x] package.json với đầy đủ dependencies

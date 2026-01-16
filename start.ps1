@@ -1,7 +1,7 @@
-# Script khởi chạy BỐCÓMẶT
+# Script khởi chạy HeyPaaaa
 # Chạy cả frontend và backend
 
-Write-Host "🚀 Đang khởi chạy BỐCÓMẶT..." -ForegroundColor Green
+Write-Host "🚀 Đang khởi chạy HeyPaaaa..." -ForegroundColor Green
 
 # Kiểm tra file .env
 if (-not (Test-Path ".env")) {

@@ -4,21 +4,29 @@ import { Heart, Target, Users, Lightbulb } from 'lucide-react';
 export const About = () => {
   return (
     <div className="max-w-4xl mx-auto space-y-8">
-      <div className="text-center space-y-4">
-        <Heart className="h-16 w-16 text-primary mx-auto" />
-        <h1 className="text-4xl font-bold">Về BỐCÓMẶT</h1>
+      <div className="text-center space-y-6 py-8">
+        <div className="relative inline-block">
+          <div className="absolute inset-0 bg-gradient-to-r from-pink-400 to-orange-400 rounded-full blur-xl opacity-50 animate-pulse"></div>
+          <Heart className="h-20 w-20 text-primary mx-auto relative z-10" fill="currentColor" />
+        </div>
+        <h1 className="text-5xl font-extrabold bg-gradient-to-r from-pink-600 via-rose-500 to-orange-500 bg-clip-text text-transparent animate-gradient">Về HeyPaaaa</h1>
+        <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          Nền tảng hỗ trợ các ông bố trên hành trình làm cha đầy yêu thương
+        </p>
       </div>
 
-      <Card>
+      <Card className="border-2 border-pink-100 bg-gradient-to-br from-white to-pink-50/30 hover-lift">
         <CardHeader>
-          <CardTitle className="flex items-center gap-2">
-            <Target className="h-6 w-6 text-primary" />
+          <CardTitle className="flex items-center gap-3 text-xl">
+            <div className="h-10 w-10 rounded-full bg-gradient-to-r from-pink-400 to-rose-400 flex items-center justify-center">
+              <Target className="h-5 w-5 text-white" />
+            </div>
             Sứ mệnh
           </CardTitle>
         </CardHeader>
-        <CardContent>
+        <CardContent className="space-y-4">
           <p className="text-lg leading-relaxed">
-            BỐCÓMẶT được tạo ra với sứ mệnh hỗ trợ các ông bố tương lai trong hành trình làm cha đầy thử thách
+            HeyPaaaa được tạo ra với sứ mệnh hỗ trợ các ông bố tương lai trong hành trình làm cha đầy thử thách
             nhưng cũng đầy niềm vui. Chúng tôi hiểu rằng việc chăm sóc vợ trong thai kỳ, sau sinh, và chăm sóc
             em bé không phải là điều dễ dàng, đặc biệt là khi bạn lần đầu làm cha.
           </p>
@@ -30,35 +38,37 @@ export const About = () => {
         </CardContent>
       </Card>
 
-      <Card>
+      <Card className="border-2 border-orange-100 bg-gradient-to-br from-white to-orange-50/30 hover-lift">
         <CardHeader>
-          <CardTitle className="flex items-center gap-2">
-            <Lightbulb className="h-6 w-6 text-primary" />
+          <CardTitle className="flex items-center gap-3 text-xl">
+            <div className="h-10 w-10 rounded-full bg-gradient-to-r from-orange-400 to-amber-400 flex items-center justify-center">
+              <Lightbulb className="h-5 w-5 text-white" />
+            </div>
             Giá trị cốt lõi
           </CardTitle>
         </CardHeader>
-        <CardContent className="space-y-4">
-          <div>
-            <h3 className="font-semibold text-lg mb-2">Đồng cảm và hỗ trợ</h3>
-            <p className="text-muted-foreground">
+        <CardContent className="space-y-6">
+          <div className="p-4 rounded-lg bg-pink-50/50 border border-pink-100">
+            <h3 className="font-bold text-lg mb-2 text-pink-700">Đồng cảm và hỗ trợ</h3>
+            <p className="text-gray-700 leading-relaxed">
               Chúng tôi hiểu những thử thách mà các ông bố phải đối mặt và luôn ở đây để hỗ trợ bạn.
             </p>
           </div>
-          <div>
-            <h3 className="font-semibold text-lg mb-2">Kiến thức đáng tin cậy</h3>
-            <p className="text-muted-foreground">
+          <div className="p-4 rounded-lg bg-orange-50/50 border border-orange-100">
+            <h3 className="font-bold text-lg mb-2 text-orange-700">Kiến thức đáng tin cậy</h3>
+            <p className="text-gray-700 leading-relaxed">
               Tất cả thông tin được biên soạn cẩn thận, dựa trên các nguồn đáng tin cậy và kinh nghiệm thực tế.
             </p>
           </div>
-          <div>
-            <h3 className="font-semibold text-lg mb-2">Dễ tiếp cận</h3>
-            <p className="text-muted-foreground">
+          <div className="p-4 rounded-lg bg-rose-50/50 border border-rose-100">
+            <h3 className="font-bold text-lg mb-2 text-rose-700">Dễ tiếp cận</h3>
+            <p className="text-gray-700 leading-relaxed">
               Ngôn ngữ đơn giản, dễ hiểu, phù hợp với mọi ông bố, không cần kiến thức y tế chuyên sâu.
             </p>
           </div>
-          <div>
-            <h3 className="font-semibold text-lg mb-2">Tôn trọng và không phán xét</h3>
-            <p className="text-muted-foreground">
+          <div className="p-4 rounded-lg bg-amber-50/50 border border-amber-100">
+            <h3 className="font-bold text-lg mb-2 text-amber-700">Tôn trọng và không phán xét</h3>
+            <p className="text-gray-700 leading-relaxed">
               Mỗi hành trình là duy nhất. Chúng tôi tôn trọng mọi cách tiếp cận và luôn khuyến khích
               tham khảo ý kiến bác sĩ khi cần thiết.
             </p>
@@ -66,28 +76,33 @@ export const About = () => {
         </CardContent>
       </Card>
 
-      <Card>
+      <Card className="border-2 border-rose-100 bg-gradient-to-br from-white to-rose-50/30 hover-lift">
         <CardHeader>
-          <CardTitle className="flex items-center gap-2">
-            <Users className="h-6 w-6 text-primary" />
+          <CardTitle className="flex items-center gap-3 text-xl">
+            <div className="h-10 w-10 rounded-full bg-gradient-to-r from-rose-400 to-pink-400 flex items-center justify-center">
+              <Users className="h-5 w-5 text-white" />
+            </div>
             Đối tượng
           </CardTitle>
         </CardHeader>
         <CardContent>
           <p className="text-lg leading-relaxed">
-            BỐCÓMẶT dành cho tất cả các ông bố - từ những người đang chuẩn bị có con, đang trong quá trình
+            HeyPaaaa dành cho tất cả các ông bố - từ những người đang chuẩn bị có con, đang trong quá trình
             vợ mang thai, vừa có con, hoặc đang chăm sóc trẻ sơ sinh. Dù bạn ở giai đoạn nào, chúng tôi
             đều có thông tin hữu ích cho bạn.
           </p>
         </CardContent>
       </Card>
 
-      <Card>
+      <Card className="border-2 border-amber-200 bg-gradient-to-br from-amber-50/50 to-yellow-50/50">
         <CardHeader>
-          <CardTitle>Lưu ý quan trọng</CardTitle>
+          <CardTitle className="text-xl flex items-center gap-2">
+            <span className="text-2xl">⚠️</span>
+            Lưu ý quan trọng
+          </CardTitle>
         </CardHeader>
         <CardContent>
-          <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4 space-y-2">
+          <div className="bg-yellow-50/80 border-2 border-yellow-300 rounded-xl p-6 space-y-3 shadow-sm">
             <p className="font-semibold text-yellow-900">
               Thông tin trên website chỉ mang tính chất tham khảo và giáo dục.
             </p>

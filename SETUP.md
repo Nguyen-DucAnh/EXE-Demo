@@ -50,7 +50,7 @@ Frontend sẽ chạy tại: `http://localhost:3000`
 ## Kiểm tra
 
 1. Mở trình duyệt và truy cập `http://localhost:3000`
-2. Bạn sẽ thấy trang chủ của BỐCÓMẶT
+2. Bạn sẽ thấy trang chủ của HeyPaaaa
 3. Thử các tính năng:
    - Xem kiến thức
    - Tìm kiếm bài viết

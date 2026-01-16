@@ -1,4 +1,4 @@
-# BỐCÓMẶT - Hướng dẫn chăm sóc vợ và con cho các ông bố
+# HeyPaaaa - Hướng dẫn chăm sóc vợ và con cho các ông bố
 
 Ứng dụng web React giúp các ông bố tương lai và mới làm cha học cách chăm sóc vợ trong thai kỳ, sau sinh, và chăm sóc trẻ sơ sinh.
 
@@ -110,7 +110,7 @@ Frontend sẽ chạy tại `http://localhost:3000`
 ## 📚 Tính năng
 
 ### 1. Trang chủ
-- Giới thiệu về BỐCÓMẶT
+- Giới thiệu về HeyPaaaa
 - Tổng quan các giai đoạn trong hành trình
 - Navigation đến các phần khác
 
@@ -214,5 +214,5 @@ Nếu có câu hỏi hoặc góp ý, vui lòng tạo issue trên GitHub.
 
 ---
 
-**BỐCÓMẶT** - Đồng hành cùng các ông bố trên hành trình làm cha ❤️
+**HeyPaaaa** - Đồng hành cùng các ông bố trên hành trình làm cha ❤️
 

@@ -125,7 +125,7 @@ ${context ? `\nThông tin liên quan từ cơ sở kiến thức:\n${context}` :
     if (!openai) {
       // Fallback response if OpenAI is not configured
       return res.json({
-        answer: `Xin chào! Tôi là trợ lý AI của BỐCÓMẶT. 
+        answer: `Xin chào! Tôi là trợ lý AI của HeyPaaaa. 
 
 Hiện tại, tính năng AI chưa được cấu hình đầy đủ. Vui lòng cấu hình OPENAI_API_KEY trong file .env để sử dụng tính năng này.
 
@@ -182,7 +182,7 @@ app.get('/api/health', (req, res) => {
 // Root path - redirect to API info
 app.get('/', (req, res) => {
   res.json({
-    message: 'BỐCÓMẶT API Server',
+    message: 'HeyPaaaa API Server',
     version: '1.0.0',
     endpoints: {
       health: '/api/health',
