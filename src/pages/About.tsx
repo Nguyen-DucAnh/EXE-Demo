@@ -6,19 +6,19 @@ export const About = () => {
     <div className="max-w-4xl mx-auto space-y-8">
       <div className="text-center space-y-6 py-8">
         <div className="relative inline-block">
-          <div className="absolute inset-0 bg-gradient-to-r from-pink-400 to-orange-400 rounded-full blur-xl opacity-50 animate-pulse"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-sky-500 to-amber-400 rounded-full blur-xl opacity-50 animate-pulse"></div>
           <Heart className="h-20 w-20 text-primary mx-auto relative z-10" fill="currentColor" />
         </div>
-        <h1 className="text-5xl font-extrabold bg-gradient-to-r from-pink-600 via-rose-500 to-orange-500 bg-clip-text text-transparent animate-gradient">Về HeyPaaaa</h1>
+        <h1 className="text-5xl font-extrabold bg-gradient-to-r from-sky-700 via-indigo-600 to-amber-500 bg-clip-text text-transparent animate-gradient">Về HeyPaaaa</h1>
         <p className="text-lg text-gray-600 max-w-2xl mx-auto">
           Nền tảng hỗ trợ các ông bố trên hành trình làm cha đầy yêu thương
         </p>
       </div>
 
-      <Card className="border-2 border-pink-100 bg-gradient-to-br from-white to-pink-50/30 hover-lift">
+      <Card className="border-2 border-sky-100 bg-gradient-to-br from-white to-sky-50/30 hover-lift">
         <CardHeader>
           <CardTitle className="flex items-center gap-3 text-xl">
-            <div className="h-10 w-10 rounded-full bg-gradient-to-r from-pink-400 to-rose-400 flex items-center justify-center">
+            <div className="h-10 w-10 rounded-full bg-gradient-to-r from-sky-500 to-indigo-500 flex items-center justify-center">
               <Target className="h-5 w-5 text-white" />
             </div>
             Sứ mệnh
@@ -48,8 +48,8 @@ export const About = () => {
           </CardTitle>
         </CardHeader>
         <CardContent className="space-y-6">
-          <div className="p-4 rounded-lg bg-pink-50/50 border border-pink-100">
-            <h3 className="font-bold text-lg mb-2 text-pink-700">Đồng cảm và hỗ trợ</h3>
+          <div className="p-4 rounded-lg bg-sky-50/50 border border-sky-100">
+            <h3 className="font-bold text-lg mb-2 text-sky-700">Đồng cảm và hỗ trợ</h3>
             <p className="text-gray-700 leading-relaxed">
               Chúng tôi hiểu những thử thách mà các ông bố phải đối mặt và luôn ở đây để hỗ trợ bạn.
             </p>
@@ -60,8 +60,8 @@ export const About = () => {
               Tất cả thông tin được biên soạn cẩn thận, dựa trên các nguồn đáng tin cậy và kinh nghiệm thực tế.
             </p>
           </div>
-          <div className="p-4 rounded-lg bg-rose-50/50 border border-rose-100">
-            <h3 className="font-bold text-lg mb-2 text-rose-700">Dễ tiếp cận</h3>
+          <div className="p-4 rounded-lg bg-slate-50/50 border border-slate-100">
+            <h3 className="font-bold text-lg mb-2 text-slate-700">Dễ tiếp cận</h3>
             <p className="text-gray-700 leading-relaxed">
               Ngôn ngữ đơn giản, dễ hiểu, phù hợp với mọi ông bố, không cần kiến thức y tế chuyên sâu.
             </p>
@@ -76,10 +76,10 @@ export const About = () => {
         </CardContent>
       </Card>
 
-      <Card className="border-2 border-rose-100 bg-gradient-to-br from-white to-rose-50/30 hover-lift">
+      <Card className="border-2 border-slate-100 bg-gradient-to-br from-white to-slate-50/30 hover-lift">
         <CardHeader>
           <CardTitle className="flex items-center gap-3 text-xl">
-            <div className="h-10 w-10 rounded-full bg-gradient-to-r from-rose-400 to-pink-400 flex items-center justify-center">
+            <div className="h-10 w-10 rounded-full bg-gradient-to-r from-sky-500 to-amber-400 flex items-center justify-center">
               <Users className="h-5 w-5 text-white" />
             </div>
             Đối tượng

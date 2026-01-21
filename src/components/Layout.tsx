@@ -27,10 +27,10 @@ export const Layout = ({ children }: { children: React.ReactNode }) => {
           <div className="flex items-center justify-between">
             <Link to="/" className="flex items-center gap-3 group">
               <div className="relative">
-                <div className="absolute inset-0 bg-gradient-to-r from-pink-400 to-orange-400 rounded-full blur opacity-50 group-hover:opacity-75 transition-opacity"></div>
+                <div className="absolute inset-0 bg-gradient-to-r from-sky-500 to-amber-400 rounded-full blur opacity-50 group-hover:opacity-75 transition-opacity"></div>
                 <Heart className="h-7 w-7 text-primary relative z-10 group-hover:scale-110 transition-transform" fill="currentColor" />
               </div>
-              <span className="text-2xl font-extrabold bg-gradient-to-r from-pink-500 via-rose-400 to-orange-400 bg-clip-text text-transparent group-hover:scale-105 transition-transform">HeyPaaaa</span>
+              <span className="text-2xl font-extrabold bg-gradient-to-r from-sky-600 via-indigo-600 to-amber-400 bg-clip-text text-transparent group-hover:scale-105 transition-transform">HeyPaaaa</span>
             </Link>
             <nav className="hidden md:flex items-center gap-4">
               {navItems.map((item) => {
@@ -92,10 +92,10 @@ export const Layout = ({ children }: { children: React.ReactNode }) => {
         </div>
       </header>
       <main className="container mx-auto px-4 py-8">{children}</main>
-      <footer className="border-t mt-auto py-10 bg-gradient-to-r from-pink-50 via-orange-50 to-rose-50">
+      <footer className="border-t mt-auto py-10 bg-gradient-to-r from-slate-50 via-sky-50 to-amber-50">
         <div className="container mx-auto px-4 text-center">
           <div className="flex items-center justify-center gap-2 mb-3">
-            <Heart className="h-5 w-5 text-pink-500" fill="currentColor" />
+            <Heart className="h-5 w-5 text-sky-600" fill="currentColor" />
             <p className="text-base font-semibold text-gray-700">© 2024 HeyPaaaa</p>
           </div>
           <p className="text-sm text-gray-600">Đồng hành cùng các ông bố trên hành trình làm cha ❤️</p>

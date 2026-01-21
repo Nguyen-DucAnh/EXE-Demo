@@ -10,19 +10,21 @@
     --card-foreground: 222.2 84% 4.9%;
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
-    --primary: 339 90% 66%;
+    /* Primary: deep blue for \"dad\" energy, still friendly */
+    --primary: 220 80% 55%;
     --primary-foreground: 0 0% 100%;
-    --secondary: 25 95% 53%;
+    /* Secondary: warm amber/orange for family warmth */
+    --secondary: 35 92% 60%;
     --secondary-foreground: 0 0% 100%;
-    --muted: 0 0% 96.1%;
+    --muted: 210 20% 96%;
     --muted-foreground: 215.4 16.3% 46.9%;
-    --accent: 339 70% 95%;
+    --accent: 35 90% 94%;
     --accent-foreground: 222.2 47.4% 11.2%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 339 90% 66%;
+    --ring: 220 80% 55%;
     --radius: 0.75rem;
   }
 
@@ -56,7 +58,8 @@
 
   body {
     @apply bg-background text-foreground;
-    background: linear-gradient(135deg, #fff5f7 0%, #fff1e6 100%);
+    /* Neutral-to-warm gradient: slate → warm cream */
+    background: linear-gradient(135deg, #f1f5f9 0%, #fff7ed 100%);
     min-height: 100vh;
   }
 }
