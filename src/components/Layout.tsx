@@ -1,6 +1,7 @@
 import { Link, useLocation } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
-import { Heart, BookOpen, MessageCircle, Info, Home } from 'lucide-react';
+import { BookOpen, MessageCircle, Info, Home } from 'lucide-react';
+import { Logo } from '@/components/Logo';
 import { useAppSelector, useAppDispatch } from '@/store/hooks';
 import { logout } from '@/store/slices/authSlice';
 
@@ -27,10 +28,10 @@ export const Layout = ({ children }: { children: React.ReactNode }) => {
           <div className="flex items-center justify-between">
             <Link to="/" className="flex items-center gap-3 group">
               <div className="relative">
-                <div className="absolute inset-0 bg-gradient-to-r from-sky-500 to-amber-400 rounded-full blur opacity-50 group-hover:opacity-75 transition-opacity"></div>
-                <Heart className="h-7 w-7 text-primary relative z-10 group-hover:scale-110 transition-transform" fill="currentColor" />
+                <div className="absolute inset-0 bg-gradient-to-r from-primary/30 to-secondary/30 rounded-full blur opacity-50 group-hover:opacity-75 transition-opacity"></div>
+                <Logo className="h-14 w-14 relative z-10 group-hover:scale-105 transition-transform" />
               </div>
-              <span className="text-2xl font-extrabold bg-gradient-to-r from-sky-600 via-indigo-600 to-amber-400 bg-clip-text text-transparent group-hover:scale-105 transition-transform">HeyPaaaa</span>
+              <span className="text-3xl font-black bg-gradient-to-r from-primary via-indigo-600 to-secondary bg-clip-text text-transparent group-hover:tracking-tight transition-all">HeyPaaaa</span>
             </Link>
             <nav className="hidden md:flex items-center gap-4">
               {navItems.map((item) => {
@@ -95,8 +96,8 @@ export const Layout = ({ children }: { children: React.ReactNode }) => {
       <footer className="border-t mt-auto py-10 bg-gradient-to-r from-slate-50 via-sky-50 to-amber-50">
         <div className="container mx-auto px-4 text-center">
           <div className="flex items-center justify-center gap-2 mb-3">
-            <Heart className="h-5 w-5 text-sky-600" fill="currentColor" />
-            <p className="text-base font-semibold text-gray-700">© 2024 HeyPaaaa</p>
+            <Logo className="h-10 w-10" />
+            <p className="text-xl font-bold text-gray-800">© 2024 HeyPaaaa</p>
           </div>
           <p className="text-sm text-gray-600">Đồng hành cùng các ông bố trên hành trình làm cha ❤️</p>
         </div>

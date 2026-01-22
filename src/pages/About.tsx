@@ -1,13 +1,14 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Heart, Target, Users, Lightbulb } from 'lucide-react';
+import { Target, Users, Lightbulb } from 'lucide-react';
+import { Logo } from '@/components/Logo';
 
 export const About = () => {
   return (
     <div className="max-w-4xl mx-auto space-y-8">
       <div className="text-center space-y-6 py-8">
         <div className="relative inline-block">
-          <div className="absolute inset-0 bg-gradient-to-r from-sky-500 to-amber-400 rounded-full blur-xl opacity-50 animate-pulse"></div>
-          <Heart className="h-20 w-20 text-primary mx-auto relative z-10" fill="currentColor" />
+          <div className="absolute inset-0 bg-gradient-to-r from-primary/30 to-secondary/30 rounded-full blur-2xl opacity-50 animate-pulse"></div>
+          <Logo className="h-32 w-32 mx-auto relative z-10" />
         </div>
         <h1 className="text-5xl font-extrabold bg-gradient-to-r from-sky-700 via-indigo-600 to-amber-500 bg-clip-text text-transparent animate-gradient">Về HeyPaaaa</h1>
         <p className="text-lg text-gray-600 max-w-2xl mx-auto">

@@ -10,11 +10,11 @@
     --card-foreground: 222.2 84% 4.9%;
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
-    /* Primary: deep blue for \"dad\" energy, still friendly */
-    --primary: 220 80% 55%;
+    /* Primary: Navy Blue (#1D4ED8) for a more professional and trustworthy feel */
+    --primary: 224 76% 48%;
     --primary-foreground: 0 0% 100%;
-    /* Secondary: warm amber/orange for family warmth */
-    --secondary: 35 92% 60%;
+    /* Secondary: Vibrant Orange (#F97316) for modern energy */
+    --secondary: 25 95% 53%;
     --secondary-foreground: 0 0% 100%;
     --muted: 210 20% 96%;
     --muted-foreground: 215.4 16.3% 46.9%;

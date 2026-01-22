@@ -1,7 +1,8 @@
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { Heart, BookOpen, MessageCircle, Users, ArrowRight } from 'lucide-react';
+import { BookOpen, MessageCircle, Users, ArrowRight } from 'lucide-react';
+import { Logo } from '@/components/Logo';
 import type { LifeStage } from '@/types';
 import { getStageLabel } from '@/services/knowledgeService';
 
@@ -15,8 +16,8 @@ export const Home = () => {
         <div className="absolute inset-0 bg-gradient-to-br from-slate-50 via-sky-50 to-amber-50 opacity-50 rounded-3xl blur-3xl -z-10"></div>
         <div className="flex justify-center mb-4">
           <div className="relative">
-            <div className="absolute inset-0 bg-gradient-to-r from-sky-500 to-amber-400 rounded-full blur-xl opacity-50 animate-pulse"></div>
-            <Heart className="h-20 w-20 text-primary relative z-10 animate-pulse" fill="currentColor" />
+            <div className="absolute inset-0 bg-gradient-to-r from-primary to-secondary rounded-full blur-2xl opacity-30 animate-pulse"></div>
+            <Logo className="h-32 w-32 relative z-10" />
           </div>
         </div>
         <h1 className="text-6xl md:text-7xl font-extrabold bg-gradient-to-r from-sky-600 via-indigo-600 to-amber-400 bg-clip-text text-transparent animate-gradient tracking-tight">
